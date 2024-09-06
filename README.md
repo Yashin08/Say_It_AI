@@ -2,14 +2,20 @@
 
 ### Project Description:
 
-The Blog/Book Narrator project utilizes AWS services to transform text files—like blog posts, articles, newsletters, or book excerpts—into audio. This makes written content more accessible, particularly for those who prefer listening over reading.
+This project leverages various AWS services to convert written text into lifelike speech. Utilizing Amazon Polly, a powerful text-to-speech service, the application transforms text into natural-sounding audio in multiple languages and voices. The project employs AWS Lambda for serverless computing, ensuring scalability and efficiency without the need for server management.
+
+### Key Features:
+
+* Real-time Conversion: Provides fast and responsive text-to-speech conversion.
+* Offline Playback: Stores audio files in formats like MP3 for offline use.
+* Scalable and Serverless: Utilizes AWS Lambda for seamless scalability and reduced operational overhead.
 
 ### Use Cases:
 
-Accessibility: Converts written content into audio for visually impaired users. \
-Learning: Allows users to listen to educational material, enhancing the learning experience. \
-Content Distribution: Provides an additional format for consuming content, boosting audience engagement. \
-Convenience: Lets users listen to articles or books while multitasking, such as during commutes or workouts.
+* Accessibility: Converts written content into audio for visually impaired users. \
+* Learning: Allows users to listen to educational material, enhancing the learning experience. \
+* Content Distribution: Provides an additional format for consuming content, boosting audience engagement. \
+* Convenience: Lets users listen to articles or books while multitasking, such as during commutes or workouts.
 
 ### Steps to Build the Project:
 
